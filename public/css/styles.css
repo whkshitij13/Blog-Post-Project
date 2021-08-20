@@ -1,0 +1,126 @@
+
+.navbar{
+    padding: 10px;
+    border-radius: 0px;
+    opacity: 0.8; 
+}
+.backg{background-color: #0a0603;
+  background-image: url("https://www.transparenttextures.com/patterns/diagmonds.png");
+    height: 100%;
+}
+footer{
+    bottom: 0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.857);
+    width: 100%;
+    position: fixed;
+    color: white;
+}
+.card{
+    display: inline-block;
+    width:465px ;
+    margin:15px 15px; 
+    padding: 20px;
+    background-color: rgb(120, 120, 120);
+    align-items: center;
+    box-shadow: 0px 10px 15px 0 rgba(255, 255, 255, 0.646), 0 10px 15px 0 rgba(255, 254, 254, 0.53);
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 20px;
+    opacity: 0.7;
+  }
+  .card:hover{
+      opacity: 1;
+      background-color: rgb(244, 251, 181);
+      
+
+  }
+  .card-heading{
+      display: inline-block;
+      text-decoration: underline;
+      text-shadow: 2px 2px #b6b853;
+      width:330px;
+      word-wrap: break-word;
+  }
+  .card-contents{
+    word-wrap: break-word;
+      display: inline-block;
+      color:rgba(0, 0, 0, 0.877);
+      text-shadow:1px 1px #fefffe;
+      font-size: 15px;
+        width:330px;
+        font-weight:bold;
+  }
+  .card2{
+      background-color: rgb(240, 248, 202);
+      width: 100%;
+      text-align: center;
+      justify-content: center;
+  }
+
+
+
+
+
+
+  /* sign in */
+  
+
+
+.form-signin {
+  width: 100%;
+  max-width: 500px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="textarea"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.T{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(193, 216, 45);
+    text-shadow:2px 4px #0a0a0a;
+}
+.btn-group-lg>.btn, .btn-lg {
+    padding: 9px 210px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+}
+.card1{
+  display: inline-block;
+  width:50% ;
+  height:50% ;
+  margin:15px 15px; 
+  padding: 20px;
+  background-color: rgb(120, 120, 120);
+  align-items: center;
+  box-shadow: 0px 10px 15px 0 rgba(255, 255, 255, 0.646), 0 10px 15px 0 rgba(255, 254, 254, 0.53);
+  text-align: center;
+  border-radius: 20px;
+  margin-left: 25%;
+  opacity: 0.7;
+}
+.card1:hover{
+    opacity: 1;
+    background-color: rgb(244, 251, 181);
+}

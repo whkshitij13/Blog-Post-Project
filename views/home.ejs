@@ -1,0 +1,11 @@
+<div">
+    <%- include("header") -%>
+        <% posts.forEach(function(post){ %>
+        <div class="card">
+            <h1 class="card-heading"><%=post.title%></h1>
+            <p class="card-contents"><%=post.content.substring(0,50)+"..."%></p>
+            <a href="/posts/<%=post.title%>">Read more</a>
+        </div>
+        <%})%>
+        </div>
+    <%- include("footer") -%>
