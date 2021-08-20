@@ -1,0 +1,23 @@
+<%- include("header") -%>
+    <div class=compose>
+        <main class="form-signin">
+            <form action="/compose" method="post">
+                <p class="T">Compose New Post</p>
+
+                <div class="form-floating">
+                    <input type="text" class="form-control" id="floatingInput" name="postTitle" placeholder="Title">
+
+                    <div class="mb-3">
+                        <textarea name="postContent" class="form-control" id="exampleFormControlTextarea1" rows="6"
+                            placeholder="Type content here..."></textarea>
+                    </div>
+                </div>
+                <div class="d-grid gap-2">
+                    <button class=" btn btn-lg btn-primary " type="submit">POST</button>
+                </div>
+            </form>
+        </main>
+
+
+    </div>
+    <%- include("footer") -%>
